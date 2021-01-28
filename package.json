@@ -1,0 +1,23 @@
+{
+  "name": "AAChartService",
+  "version": "0.0.1",
+  "description": "A microservice that serves plots for Jupyter",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -r esm server.js ",
+    "devstart": "nodemon -r esm server.js"
+  },
+  "keywords": [],
+  "author": "gcr",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "browser-env": "^3.3.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "winston": "^3.3.3"
+  }
+}

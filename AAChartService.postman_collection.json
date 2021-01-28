@@ -1,0 +1,109 @@
+{
+	"info": {
+		"_postman_id": "f6bbe3ca-1408-4eae-8246-6ae05f882f4d",
+		"name": "AAChartService",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "check",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}",
+					"host": [
+						"{{host}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getIt",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/c3/it",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"c3",
+						"it"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getLogo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/c3/logo",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"c3",
+						"logo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "forJupyter",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/c3/forJupyter",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"c3",
+						"forJupyter"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "c3",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "text/plain",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ",ca,cb,cc,cd,ce,da,db,dc\nr1,1,1,1,1,2,1,2,2\nr2,1,0,0,1,1,1,1,1\nr3,1,1,1,1,1,1,1,1",
+					"options": {
+						"raw": {
+							"language": "text"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}/c3d3",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"c3d3"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

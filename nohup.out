@@ -1,0 +1,36 @@
+internal/modules/cjs/loader.js:670
+    throw err;
+    ^
+
+Error: Cannot find module 'esm'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:668:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:591:27)
+    at Module.require (internal/modules/cjs/loader.js:723:19)
+    at Module._preloadModules (internal/modules/cjs/loader.js:945:12)
+    at loadPreloadModules (internal/bootstrap/pre_execution.js:363:5)
+    at prepareMainThreadExecution (internal/bootstrap/pre_execution.js:61:3)
+    at internal/main/run_main_module.js:11:1
+internal/modules/cjs/loader.js:670
+    throw err;
+    ^
+
+Error: Cannot find module 'esm'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:668:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:591:27)
+    at Module.require (internal/modules/cjs/loader.js:723:19)
+    at Module._preloadModules (internal/modules/cjs/loader.js:945:12)
+    at loadPreloadModules (internal/bootstrap/pre_execution.js:363:5)
+    at prepareMainThreadExecution (internal/bootstrap/pre_execution.js:61:3)
+    at internal/main/run_main_module.js:11:1
+internal/modules/cjs/loader.js:670
+    throw err;
+    ^
+
+Error: Cannot find module 'esm'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:668:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:591:27)
+    at Module.require (internal/modules/cjs/loader.js:723:19)
+    at Module._preloadModules (internal/modules/cjs/loader.js:945:12)
+    at loadPreloadModules (internal/bootstrap/pre_execution.js:363:5)
+    at prepareMainThreadExecution (internal/bootstrap/pre_execution.js:61:3)
+    at internal/main/run_main_module.js:11:1
